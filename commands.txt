@@ -1,0 +1,20 @@
+yarn add graphql-tag graphql
+yarn add -D @apollo/client
+yarn add -D graphql-codegen/cli
+yarn graphql -codegen init
+applicaiton built with react
+https://spacexdata.herokuapp.com/graphql
+./src/components/**/*.{ts,tsx}
+
+codegen.yaml
+
+add:
+
+
+config:
+ withHooks: true
+enter
+output: enter
+no
+enter
+packe.json: codegen
